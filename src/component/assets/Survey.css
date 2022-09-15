@@ -21,7 +21,7 @@
 }
 .survey-card {
 	margin-top: 163px;
-	padding: 22px;
+	/* padding: 22px; */
 	background: #ffffff;
 	box-shadow: 0px 10px 50px rgba(23, 26, 41, 0.05);
 	border-radius: 20px;
@@ -46,7 +46,7 @@
 .form_info {
 	margin-top: 56px;
 }
-.radio_button button {
+.radio_button  {
 	padding: 8px 20px;
 	background: #eef0f3;
 	border: 1px solid #e1e4ea;
@@ -135,7 +135,7 @@
 	margin-left: 44px;
 }
 .form_info {
-	margin-top: 64px;
+	margin-top: 49px;
 }
 
 
@@ -156,4 +156,29 @@ border: 1px solid #E1E4EA;
 border-radius: 5px;
 margin-left: 30px;
 
+}
+.MuiStepConnector-line{
+	display: none !important;
+}
+
+/* ------------confirmation----------------------------? */
+
+
+.confirmation{
+	margin-top: 64px;
+	display: flex;align-items: center;justify-content: center;
+	flex-direction: column;
+}
+.confirmation p{
+	font-weight: 600;
+font-size: 14px;
+margin-top: 28px;
+}
+.MuiStepLabel-label.MuiStepLabel-completed{
+	font-weight: 700 !important;
+font-size: 14px !important;
+}
+.MuiStepLabel-label.MuiStepLabel-active{
+	font-weight: 700 !important;
+font-size: 14px !important;
 }
