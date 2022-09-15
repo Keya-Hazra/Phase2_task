@@ -1,5 +1,5 @@
 import React from "react";
-import "./Survey.css";
+import "./assets/Survey.css";
 import SurveyStepper from "./SurveyStepper";
 const Survey = () => {
   return (
