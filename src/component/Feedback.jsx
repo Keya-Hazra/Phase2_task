@@ -16,10 +16,13 @@ const Feedback = () => {
   return (
     <>
       <div className="info-box">
-        <div className="d-flex">
-          <p>01. </p>
+        <div >
+          <div className="feed1 feed1-text">
+            <p style={{ marginRight:'9px'}}>01.</p>
+            <p>How was your day?</p>
+          </div>
           <div>
-            <p>{"  "} How was your day?</p>
+           
             <div className="d-flex gap-2">
               <button onClick={()=>toggleButton()} className= {`inactive_button ${active  ? "active_btn" : ""}`}>Bad</button>
               <button  onClick={()=>toggleButton()} className= {`inactive_button ${active  ? "active_btn" : ""}`}>Okay</button>
@@ -28,10 +31,14 @@ const Feedback = () => {
           </div>
         </div>
 
-        <div className="d-flex form_info">
-          <p>02. </p>
-          <div>
+        <div className="form_info">
+        <div className="feed1 feed1-text">
+            <p style={{ marginRight:'9px'}}>02.</p>
             <p>{"  "} Do you feel you’re making difference?</p>
+          </div>
+       
+          <div>
+           
             <div className="d-flex gap-4 radio_button">
               <label>
                 <button type="button">
